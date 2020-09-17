@@ -1,7 +1,8 @@
 # interactive_maps
 Examples of interactive maps (mainly with the leaflet package)
 
-In this script (leaflet_example.R) I will show how to produce an interactive (html)webmap with the leaflet package.
+## leaflet_example.R
+In this script I will show how to produce an interactive (html)webmap with the leaflet package.
 
 The goal is to create an interactive map of Germany divided into 95 (two-digit zip code) regions and to show the desired minimum wage of professional truck drivers in each region. 
 
