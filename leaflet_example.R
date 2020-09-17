@@ -50,7 +50,7 @@ library(htmltools)
 
 # ---------------------load required data ------------------------------------------ ####
 #
-load("DVZ/income_data.Rdata")
+load("Data/income_data.Rdata")
 # the income_data dataframe consists only of aggregated information about the desired 
 # minimum wage of professional truck drivers in Germany and the corresponding region.
 # There are 95 (two digit zip code) regions. 
@@ -59,7 +59,7 @@ glimpse(income_data)
 # Another object we need is the spatial polygons dataframe consisting of the geographic 
 # information about the boundaries of the 95 regions. The format is a geojson file so 
 # we need the geojson_read function from the geojsonio package.
-plz_map <- geojsonio::geojson_read("DVZ/plz-2stellig.geojson", what = "sp")
+plz_map <- geojsonio::geojson_read("Data/plz-2stellig.geojson", what = "sp")
 
 
 # ---------------------------------------------------------------------------- ####
